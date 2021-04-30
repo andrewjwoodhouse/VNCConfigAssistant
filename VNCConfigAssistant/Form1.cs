@@ -232,8 +232,8 @@ namespace VNCConfigAssistant
             { 
                 MessageBox.Show("Now you've done the basic setup of VNC Server, install VNC Viewer and connect :)"); 
             }
-
-            Application.Exit();
+            // do we really need to quit the app?
+            // Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
