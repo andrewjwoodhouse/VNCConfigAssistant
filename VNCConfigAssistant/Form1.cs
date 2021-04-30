@@ -5,6 +5,9 @@ using System.Windows.Forms;
 
 namespace VNCConfigAssistant
 {
+
+    // This application is not associated in any way with RealVNC Limited
+    
     public partial class Form1 : Form
     {
         public Form1()
@@ -328,5 +331,7 @@ namespace VNCConfigAssistant
             this.linkAboutPermissions.LinkVisited = false;
             Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=xqrOzwveRJI") { UseShellExecute = true });
         }
+
+        
     }
 }
